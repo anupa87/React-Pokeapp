@@ -23,7 +23,7 @@ class PokeList extends Component {
       });
   }
   render() {
-    if (this.state.isloading) {
+    if (this.state.isLoading) {
       return <p>Loading...</p>;
     }
     return (
