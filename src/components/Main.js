@@ -1,7 +1,13 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const Main = () => {
-  return <main>Main will be here</main>;
+  return (
+    <main>
+      <Outlet />
+      
+    </main>
+  );
 };
 
 export default Main;

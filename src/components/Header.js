@@ -1,7 +1,13 @@
 import React from "react";
+import Nav from "./Nav";
 
 const Header = () => {
-  return <header>Header will be here</header>;
+  return (
+    <header>
+      PokeApp
+      <Nav />
+    </header>
+  );
 };
 
 export default Header;
